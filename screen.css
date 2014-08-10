@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 12pt Helvetica, Sans-Serif;
+    line-height: 18pt;
+    background: url(images/noise.jpg);
+}
+.clear {
+} /* blah */
+.doc {
+    /* BUG */
+    width: 800px;
+    margin: 40px auto 60px
+}
+.pic {
+    float: right;
+}
+h1 {
+    margin: 0 0 12pt 0;
+    padding: 0 0 12pt 0;
+    font-size: 32pt;
+    font-weight: bold;
+    letter-spacing: -2px;
+    border-bottom: 1px solid #999;
+}
+.period {
+    float: right;
+}
