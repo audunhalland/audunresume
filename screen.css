@@ -9,11 +9,16 @@
 }
 body {
     font-family: Geneva, Tahoma, Verdana, sans-serif;
-    font-size: 12pt;
+    font-size: 10pt;
+    line-height: 180%;
     background-color: #212121;
 }
 ol {
     list-style-type: none;
+}
+ul {
+    padding-left: 24px;
+    list-style: square;
 }
 .doc {
     width: 980px; /* BUG? */
@@ -26,7 +31,8 @@ ol {
 }
 h1 {
     color: #475161;
-    font-size: 30pt;
+    font-size: 32pt;
+    line-height: 150%;
     font-weight: normal;
 }
 h2 {
@@ -35,6 +41,7 @@ h2 {
 }
 h2.title {
     text-transform: uppercase;
+    font-size: 12pt;
 }
 h2.section {
 /*    text-align: right;*/
@@ -44,7 +51,6 @@ h3.org {
     color: #1063ab;
 }
 h4.title, h4.summary {
-    /*float: left;*/
     font-style: italic;
     margin-bottom: 20px;
 }
@@ -61,30 +67,25 @@ div.SoMe {
     align: right;
     text-align: right;
 }
-div.photoframe {
-    background-color: #ffffff;
-    padding: 10px;
-    border: 1px solid #dedede;
+img.photo {
+    border: 10px solid #fff;
+    box-shadow: 1px 1px 2px #777;
     float: left;
 }
 div.title {
-    margin-top: 18px;
+    margin-top: 16px;
     margin-left: 24px;
     vertical-align: middle;
     height: auto;
     float: left;
 }
 div.contact {
+    margin-top: 30px;
     float: right;
     margin-left: auto;
 }
 .tel {
     font-weight: bold;
-}
-img.photo {
-    width: 100px;
-    height: 100px;
-    border: 1px solid #000;
 }
 .sectionheader {
     float: left;
@@ -100,7 +101,8 @@ img.photo {
     background-color: #eeeeee;
     padding: 10px;
     text-transform: uppercase;
-    font-size: 10pt;
+    font-size: 8pt;
+    color: #444;
 }
 .resumeitem {
     margin-bottom: 20px;
