@@ -1,62 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta name="description" content="Curriculum Vitae of Audun Halland" />
-    <meta name="keywords" content="Curriculum Vitae,CV,Audun Halland" />
-    <link rel="profile" href="http://microformats.org/profile/hcard" />
-    <link rel="profile" href="http://microformats.org/profile/hcalendar" />
-    <link rel="profile" href="http://microformats.org/profile/hresume" />
-    <link rel="stylesheet" type="text/css" media="screen" href="screen.css" />
-    <!--<link rel="stylesheet" type="text/css" media="print" href="print.css" />-->
+    <meta name="description" content="Curriculum Vitae of Audun Halland">
+    <meta name="keywords" content="Curriculum Vitae,CV,Audun Halland">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="profile" href="http://microformats.org/profile/hcard">
+    <link rel="profile" href="http://microformats.org/profile/hcalendar">
+    <link rel="profile" href="http://microformats.org/profile/hresume">
+    <link rel="stylesheet" type="text/css" media="screen" href="screen.css">
+    <!--<link rel="stylesheet" type="text/css" media="print" href="print.css">-->
     <title>Audun Halland</title>
   </head>
   <body class="hResume">
     <div class="doc">
-      <address class="contact vcard">
-        <h1 class="fn" id="fullname">Audun Halland</h1>
-        <div class="adr">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+      <div id="header" class="section vcard">
+        <div class="photoframe">
+          <img src="hei" class="photo">
         </div>
-      </address>
-      <div class="summary">
-        I am a software developer and architect born in 1983, with 7 years of work experience. I have an agnostic view regarding the choice of programming language, although my main experience is with C++, C, python, lisp/scheme, Golang, JavaScript and Java. I am very architecturally aware, and put a great effort into achieving the best balance between cleanness/elegance, code efficiency and development time. I have contributed in the planning phase of large software projects, providing architectural guidance. I have experience working in international environments, and working abroad. Besides this, I have a great interest in music and musicianship, I record music and play concerts regularly.
+        <div class="title">
+          <h1 class="fn" id="fullname">Audun Halland</h1>
+          <h2 class="title">Software developer and architect</h2>
+          <div class="adr">
+          </div>
+        </div>
+        <div class="contact">
+          stuff
+        </div>
+        <div class="clear"></div>
       </div>
-      <section id="experience">
-        <h2>Experience</h2>
-        <ol class="vcalendar">
-          <li class="experience vevent vcard">
+      <div id="summary" class="section">
+        <div class="resumeitem">
+          I am a software developer and architect born in 1983, with 7 years of work experience. I have an agnostic view regarding the choice of programming language, although my main experience is with C++, C, python, lisp/scheme, Golang, JavaScript and Java. I am very architecturally aware, and put a great effort into achieving the best balance between cleanness/elegance, code efficiency and development time. I have contributed in the planning phase of large software projects, providing architectural guidance. I have experience working in international environments, and working abroad. Besides this, I have a great interest in music and musicianship, I record music and play concerts regularly.
+        </div>
+      </div>
+      <div id="experience" class="section">
+        <div class="sectionheader">
+          <h2 class="section">Experience</h2>
+        </div>
+        <ol class="vcalendar sectioncontent">
+          <li class="experience vevent vcard resumeitem">
             <a href="#fullname" class="include"></a>
             <h3 class="org">Microsoft</h3>
             <h4 class="title">Principal Software Engineer</h4>
-            <span class="period"><abbr class="dtstart" title="20140401">April 2014</abbr> - <abbr class="dtend" title="">Present</abbr></span>
+            <div class="period">
+              <abbr class="dtstart" title="20140401">April 2014</abbr> - <abbr class="dtend" title="">Present</abbr>
+            </div>
             <div class="description">Nokia was acquired by Microsoft in April 2014. See below</div>
           </li>
-          <li class="experience vevent vcard">
+          <li class="experience vevent vcard resumeitem">
             <a href="#fullname" class="include"></a>
             <h3 class="org" id="nokia">Nokia</h3>
             <h4 class="title">Principal Software Engineer</h4>
-            <span class="period"><abbr class="dtstart" title="">May 2013</abbr> - <abbr class="dtend" title="">April 2014</abbr></span>
+            <div class="period">
+              <abbr class="dtstart" title="">May 2013</abbr> - <abbr class="dtend" title="">April 2014</abbr>
+            </div>
             <ul class="description">
               <li>Lead the development of the SX proprietary scripting language</li>
 	      <li>Implemented an Ahead-of-time compiler and several other performance optimizations for the SX language</li>
               <li>Had mentor responsibility</li>
               <li>Had Technical Area Owner responsibilities for font rendering, SQL/database and framework components supporting the Contacts application in the Nokia Asha platform, which is the basis for the Asha 50x series</li>
-              <li>Designed and developed a framework for fast, asynchronous image processing to be used as the main image loading/processing library for the Asha platform</li>
-	      <li>Responisible for architectural development and code review in the software components mentioned, as part of theArchitecture and System Design team of Nokia Mobile Phones</li>
+              <li>Designed and developed a framework for fast, asynchronous image processing to be used as the main image loading/processing library for the Asha platform</li>
+	      <li>Responisible for architectural development and code review in the software components mentioned, as part of the Architecture and System Design team of Nokia Mobile Phones</li>
             </ul>
           </li>
-          <li class="experience vevent vcard">
+          <li class="experience vevent vcard resumeitem">
             <a href="#fullname" class="include"></a>
             <a href="#nokia" class="org include"></a>
             <h4 class="title">Software Engineer</h4>
-            <div class="prediod"><abbr class="dtstart" title="">December 2011</abbr> - <abbr class="dtend" title="">May 2013</abbr></span>
+            <div class="period">
+              <abbr class="dtstart" title="">December 2011</abbr> - <abbr class="dtend" title="">May 2013</abbr>
+            </div>
             <ul class="description">
               <li>Productized the Nokia Asha 501, the first Nokia phone and the first truly mass produced one based on the Smarterphone Framework.</li>
               <li>Central contributor to the strict performance and stability requirements of the phone, resulting in it being released on time and exceeding performance expectations.</li>
@@ -64,74 +77,90 @@
               <li>Worked extensively with the graphics performance of the Asha Gallery application, making it exceed the required targets needed for productization.</li>
             </ul>
           </li>
-          <li class="experience vevent vcard">
+          <li class="experience vevent vcard resumeitem">
             <a href="#fullname" class="include"></a>
             <h3 class="org">Smarterphone</h3>
             <h4 class="title">Software Developer</h4>
-            <span class="period"><abbr class="dtstart" title="">October 2007</abbr> - <abbr class="dtend" title="">December 2011</abbr></span>
+            <div class="period">
+              <abbr class="dtstart" title="">October 2007</abbr> - <abbr class="dtend" title="">December 2011</abbr>
+            </div>
             <ul class="description">
               <li>Contributed to the design and many central features of the Smarterphone mobile phone UI framework.</li>
               <li>Designed and implemented several key features instrumental to Smarterphone being acquired by Nokia, including a fast menu widget and the smarterphone text internationalization algorithms, the best available in the mobile world at the time.</li>
 	      <li>Part of completing the Majestic project, a feature phone approved for the South American market by Telefonica, built on the smarterphone framework.</li>
             </ul>
           </li>
-          <li class="experience vevent vcard">
+          <li class="experience vevent vcard resumeitem">
             <a href="#fullname" class="include"></a>
             <h3 class="org">Ardour</h3>
             <h4 class="title">Volunteer Open Source Developer</h4>
-            <abbr class="dtstart" title="">2007</abbr> - <abbr class="dtend" title="">2007</abbr>
+            <div class="period">
+              <abbr class="dtstart" title="">2007</abbr> - <abbr class="dtend" title="">2007</abbr>
+            </div>
             <ul class="description">
 	      <li>Contributed substantial graphics related code to Ardour, a professional Digital Audio Workstation (DAW) with a GPL licence</li>
 	      <li>Contributions include piano roll and “scroomer” widgets, note backdrops/separators and waveform outlines</li>
             </ul>
           </li>
-          <li class="experience vevent vcard">
+          <li class="experience vevent vcard resumeitem">
             <a href="#fullname" class="include"></a>
             <h3 class="org">ICA Sandaker</h3>
             <h4 class="title">Retail Worker</h4>
-            <span class="period"><abbr class="dtstart" title="">July 2006</abbr> - <abbr class="dtend" title="">November 2007</abbr></span>
+            <div class="period">
+              <abbr class="dtstart" title="">July 2006</abbr> - <abbr class="dtend" title="">November 2007</abbr>
+            </div>
             <ul class="description">
 	      <li>Worked with cash register, stock and maintenance</li>
 	      <li>Part-time 30% position while attending university, working two nights a week</li>
             </ul>
           </li>
-          <li class="experience vevent vcard">
+          <li class="experience vevent vcard resumeitem">
             <a href="#fullname" class="include"></a>
             <h3 class="org">Bokcaféen, Chateau Neuf</h3>
             <h4 class="title">Board Member</h4>
-            <span class="period"><abbr class="dtstart" title="">August 2007</abbr> - <abbr class="dtend" title="">December 2007</abbr></span>
+            <div class="period">
+              <abbr class="dtstart" title="">August 2007</abbr> - <abbr class="dtend" title="">December 2007</abbr>
+            </div>
             <div class="description">Responsible for the public profile of the voluntary, student driven cafe</div>
           </li>
-          <li class="experience vevent vcard">
+          <li class="experience vevent vcard resumeitem">
             <a href="#fullname" class="include"></a>
             <h3 class="org">South Norway Hospital (Sørlandet Sykehus HF)</h3>
             <h4 class="title">IT Technical Support</h4>
-            <span class="period"><abbr class="dtstart" title="">August 2002</abbr> - <abbr class="dtend" title="">November 2003</abbr></span>
+            <div class="period">
+              <abbr class="dtstart" title="">August 2002</abbr> - <abbr class="dtend" title="">November 2003</abbr>
+            </div>
             <div class="description">Stationed as civil conscription worker. Tasks included technical support for and maintenance of computers, printers, telephones, beepers and ethernet/telephone network</div>
           </li>
         </ol>
-      </section>
-      <section id="education">
-        <h2>Education</h2>
-        <ol class="vcalendar">
-          <li class="education vevent vcard">
+      </div>
+      <div id="education" class="section">
+        <div class="sectionheader">
+          <h2 class="section">Education</h2>
+        </div>
+        <ol class="vcalendar sectioncontent">
+          <li class="education vevent vcard resumeitem">
             <a href="#fullname" class="include"></a>
             <h3 class="org">Oslo University (UiO)</h3>
             <h4 class="summary">BS in Computer Science</h4>
-            <span class="period"><abbr class="dtstart" title="">2004</abbr> - <abbr class="dtend" title="">2007</abbr></span>
+            <div class="period">
+              <abbr class="dtstart" title="">2004</abbr> - <abbr class="dtend" title="">2007</abbr>
+            </div>
             <div class="description">Computer science education with focus on logic, languages and computational linguistics.</div>
           </li>
         </ol>
-      </section>
-      <section id="languages">
-        <h2>Languages</h2>
-        <ul>
+      </div>
+      <div id="languages" class="section">
+        <div class="sectionheader">
+          <h2 class="section">Languages</h2>
+        </div>
+        <ul class="sectioncontent resumeitem">
           <li>Norwegian</li>
           <li>English</li>
           <li>German</li>
           <li>French</li>
         </ul>
-      </section>
+      </div>
     </div>
   </body>
 </html>

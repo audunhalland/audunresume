@@ -7,16 +7,19 @@ body {
     line-height: 18pt;
     background: url(images/noise.jpg);
 }
-.clear {
-} /* blah */
+ol {
+    list-style-type: none;
+}
 .doc {
     /* BUG */
-    width: 800px;
-    margin: 40px auto 60px
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.pic {
-    float: right;
+.clear {
+    clear: both;
 }
+/*
 h1 {
     margin: 0 0 12pt 0;
     padding: 0 0 12pt 0;
@@ -25,6 +28,47 @@ h1 {
     letter-spacing: -2px;
     border-bottom: 1px solid #999;
 }
-.period {
+*/
+h2.section {
+    text-align: right;
+}
+h4.title, h4.summary {
+    float: left;
+}
+div.section {
+    padding: 30px 30px 30px 42px;
+    clear: both;
+}
+div#header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #dfdfdf;
+}
+.sectionheader {
+    float: left;
+    width: 20%;
+}
+.sectioncontent {
     float: right;
+    width: 79%;
+}
+.period {
+    text-align: right;
+}
+div.photoframe {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #dedede;
+    float: left;
+}
+div.title {
+    margin: auto 0 auto 0;
+    float: left;
+}
+div.contact {
+    float: right;
+}
+img.photo {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
 }
