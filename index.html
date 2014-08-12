@@ -8,7 +8,16 @@
     <link rel="profile" href="http://microformats.org/profile/hcalendar">
     <link rel="profile" href="http://microformats.org/profile/hresume">
     <link rel="stylesheet" type="text/css" href="screen.css">
-    <!--<link rel="stylesheet" type="text/css" media="print" href="print.css">-->
+    <script>
+      function years_since(when) {
+        /* be a bit conservative on the rounding (- 0.25) */
+        return Math.round(((new Date().getTime() - when.getTime()) / (1000 * 60 * 60 * 24 * 365)) - 0.25)
+      }
+
+      window.onload = function() {
+        document.getElementById('expyears').innerHTML = years_since(new Date("October 1 2007"))
+      }
+    </script>
     <title>Audun Halland</title>
   </head>
   <body class="hResume">
@@ -39,7 +48,7 @@
           <h2 class="section">Profile</h2>
         </div>
         <div class="sectioncontent">
-          I am a software developer and architect born in 1983, with 7 years of work experience. I have an agnostic view regarding the choice of programming language, although my main experience is with C++, C, python, lisp/scheme, Golang, JavaScript and Java. I am very architecturally aware, and put a great effort into achieving the best balance between cleanness/elegance, code efficiency and development time. I have contributed in the planning phase of large software projects, providing architectural guidance. I have experience working in international environments, and working abroad. Besides this, I have a great interest in music and musicianship, I record music and play concerts regularly.
+          I am a software developer and architect born in 1983, with <span id="expyears"></span> years of work experience. I have an agnostic view regarding the choice of programming language, although my main experience is with C++, C, python, lisp/scheme, Golang, JavaScript and Java. I am very architecturally aware, and put a great effort into achieving the best balance between cleanness/elegance, code efficiency and development time. I have contributed in the planning phase of large software projects, providing architectural guidance. I have experience working in international environments, and working abroad. Besides this, I have a great interest in music and musicianship, I record music and play concerts regularly.
         </div>
       </div>
       <div id="experience" class="section">
