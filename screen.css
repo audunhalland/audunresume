@@ -68,28 +68,23 @@ div.SoMe {
     align: right;
     text-align: right;
 }
+div.contact {
+    clear: both;
+    display: flex;
+    align-items: center;
+}
 img.photo {
     border: 10px solid #fff;
     box-shadow: 1px 1px 2px #777;
-    float: left;
 }
 div.title {
-    margin-top: 16px;
     margin-left: 24px;
     vertical-align: middle;
-    height: auto;
-    float: left;
+    flex-grow: 2;
 }
-div.contact {
-    margin-top: 20px;
-    float: right;
-    margin-left: auto;
+div.contact-fields {
+    position: relative;
 }
-/*
-.tel {
-    font-weight: bold;
-}
-*/
 .sectionheader {
     float: left;
     width: 20%;
