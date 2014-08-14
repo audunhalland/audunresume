@@ -70,7 +70,10 @@ div.SoMe {
 }
 div.contact {
     clear: both;
+    display: -webkit-box;
     display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
     align-items: center;
 }
 img.photo {
@@ -79,7 +82,7 @@ img.photo {
 }
 div.title {
     margin-left: 24px;
-    vertical-align: middle;
+    -webkit-box-flex: 2;
     flex-grow: 2;
 }
 div.contact-fields {
