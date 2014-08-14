@@ -22,7 +22,7 @@ hr.initial {
 ol {
     list-style-type: none;
 }
-ul {
+ul.description {
     padding-left: 24px;
     list-style: square;
 }
