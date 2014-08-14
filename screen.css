@@ -26,6 +26,11 @@ ul.description {
     padding-left: 24px;
     list-style: square;
 }
+ul.tech {
+    list-style: none;
+    columns: 4;
+    -webkit-columns: 4;
+}
 .doc {
     width: 920px; /* BUG? */
     background-color: #ffffff;
