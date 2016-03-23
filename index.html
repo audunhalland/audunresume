@@ -25,11 +25,12 @@
       <hr class="initial">
       <div id="header" class="section vcard">
         <div class="SoMe">
-          <a href="https://www.linkedin.com/pub/audun-halland/25/60a/b03"><img src="http://loebig.files.wordpress.com/2013/10/linkedin1.png"></a>
-          <a href="https://github.com/audunhalland"><img src="github.png"></a>
-          <a href="https://twitter.com/audunhalland"><img src="http://loebig.files.wordpress.com/2013/10/twitter1.png"></a>
-          <a href="https://facebook.com/audun.halland"><img src="http://loebig.files.wordpress.com/2013/10/facebook1.png"></a>
-          <a href="https://plus.google.com/100137160251974891829"><img src="http://loebig.files.wordpress.com/2013/10/google-plus1.png"></a>
+          <a href="https://www.linkedin.com/pub/audun-halland/25/60a/b03"><img src="http://loebig.files.wordpress.com/2013/10/linkedin1.png"/></a>
+          <a href="https://github.com/audunhalland"><img src="github.png"/></a>
+          <a href="https://twitter.com/audunhalland"><img src="http://loebig.files.wordpress.com/2013/10/twitter1.png"/></a>
+          <a href="https://facebook.com/audun.halland"><img src="http://loebig.files.wordpress.com/2013/10/facebook1.png"/></a>
+          <a href="https://plus.google.com/100137160251974891829"><img src="http://loebig.files.wordpress.com/2013/10/google-plus1.png"/></a>
+          <a href="https://soundcloud.com/oey_skya"><img src="https://loebig.files.wordpress.com/2013/10/soundcloud1.png"/></a>
         </div>
         <div class="contact">
           <img src="photo.png" class="photo">
@@ -51,7 +52,7 @@
           <h2 class="section">Profile</h2>
         </div>
         <div class="sectioncontent">
-          I am a software developer and architect born in 1983, with <span id="expyears"></span> years of work experience. I have an agnostic view regarding the choice of programming language, although my main experience is with C++, C, python, lisp/scheme, Go, JavaScript and Java. I am very architecturally aware, and put a great effort into achieving the best balance between cleanness/elegance, code efficiency and development time. I have contributed in the planning phase of large software projects, providing architectural guidance. I have experience working in international environments, and working abroad. Besides this, I have a great interest in music and musicianship, I record music and play concerts regularly.
+          I am a software developer and architect born in 1983, with <span id="expyears"></span> years of work experience. I have an agnostic view regarding the choice of programming language, although my main experience is with C++, C, Java, python, lisp/scheme and Go. I am very architecturally aware, and put a great effort into achieving the best balance between cleanness/elegance, code efficiency and development time. I have contributed in the planning phase of large software projects, providing architectural guidance. I have experience working in international environments, and working abroad. Besides this, I have a great interest in music and musicianship.
         </div>
       </div>
       <div id="skills" class="section">
@@ -60,24 +61,19 @@
         </div>
         <div class="sectioncontent">
           <ul class="tech">
-            <li>C/C++</li>
-            <li>Python</li>
-            <li>Git</li>
-            <li>Text layout/rendering</li>
-            <li>UI localization</li>
-            <li>Concurrency</li>
-            <li>Functional prog.</li>
-            <li>Build systems</li>
-            <li>Go</li>
+            <li>C++</li>
             <li>Java</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>Functional progr.</li>
             <li>Lisp/Scheme</li>
-            <li>Unicode</li>
-            <li>Debugging</li>
-            <li>GNU Debugger</li>
-            <li>SQLite</li>
-            <li>Network programming</li>
-            <li>HTML/CSS</li>
+            <li>Go</li>
             <li>Android</li>
+            <li>Networking</li>
+            <li>UI localization</li>
+            <li>Digital typography</li>
+            <li>Build systems</li>
+            <li>HTML/CSS</li>
           </ul>
         </div>
       </div>
@@ -94,9 +90,11 @@
             <h3 class="title">Software Developer</h3>
             <h4 class="org">Opera Software</h4>
             <ul class="description">
-              <li>Developing <a href="http://www.opera.com/mobile/max">Opera Max</a> for Android, a data savings manager application</li>
-              <li>Main languages used are Java in general and C++ for the Virtual Private Network part</li>
-              <li>Largest task yet is replacing the network communication protocol (talking to Opera Mini servers) from simple HTTP into SPDY (HTTP/2), a binary protocol that can compress and multiplex other HTTP requests</li>
+              <li>Developing <a href="http://www.opera.com/mobile/max">Opera Max</a> for Android, a data savings manager/internet privacy application</li>
+              <li>Android development in Java. User interface, network communication, SQLite database and lots of phone state monitoring</li>
+              <li>Development of complex networking code (C++/linux APIs + JNI interface) for the VPN component</li>
+              <li>Focus on SDK backwards compatibility. Wrote gradle build scripts to replace deprecated Eclipse/ant</li>
+              <li>Largest task yet is moving the whole client/server architecture from a simple HTTP protocol to a multiplexing and fully encrypted HTTP2/SPDY based protocol</li>
             </ul>
           </li>
           <li class="experience vevent vcard resumeitem">
@@ -107,7 +105,9 @@
             <h3 class="title">Volunteer Developer</h3>
             <h4 class="org">Norwegian Helsinki Committee</h4>
             <ul class="description">
-              <li>I-DOC case matrix application</li>
+              <li>I-DOC Case Matrix application (Android)</li>
+              <li>Simple application for in-the-field gathering+synchronization of various media to be used as court evidence, in relation to human rights violations and war crimes</li>
+              <li>Based on Apache CouchDB</li>
             </ul>
           </li>
           <li class="experience vevent vcard resumeitem">
@@ -119,11 +119,11 @@
             <h4>Nokia/<span class="org">Microsoft</span></h4>
             <ul class="description">
               <li>Lead the development of a proprietary, Scheme-based scripting language</li>
-	      <li>Implemented an Ahead-of-time compiler and several other performance optimizations for that language</li>
+              <li>Implemented an Ahead-of-time compiler and several other performance optimizations for that language</li>
               <li>Had mentor responsibility related to a transfer of knowledge to Chinese developers</li>
               <li>Had Technical Area Owner responsibilities for font rendering, SQL/database and framework components supporting the Contacts application in the Nokia Asha platform, which is the basis for the Asha 50x series</li>
               <li>Designed and developed a framework for fast, asynchronous image processing to be used as the main image loading/processing library for the Asha platform</li>
-	      <li>Responsible for architectural development and code review in the software components mentioned, as part of the Architecture and System Design team of Nokia Mobile Phones</li>
+              <li>Responsible for architectural development and code review in the software components mentioned, as part of the Architecture and System Design team of Nokia Mobile Phones</li>
             </ul>
           </li>
           <li class="experience vevent vcard resumeitem">
@@ -137,7 +137,7 @@
             <ul class="description">
               <li>Productized the Nokia Asha 501, the first Nokia phone and the first truly mass produced one based on the Smarterphone Framework.</li>
               <li>Central contributor to the strict performance and stability requirements of the phone, resulting in it being released on time and exceeding performance expectations.</li>
-	      <li>Designed and implemented the high performance Asha Contacts application, including database design, internationalization (sorting, indexing) of the phonebook list, a low memory, stream-based import algorithm used with JSON data from social networking applications, and frame rate optimization of the scroll menu.</li>
+              <li>Designed and implemented the high performance Asha Contacts application, including database design, internationalization (sorting, indexing) of the phonebook list, a low memory, stream-based import algorithm used with JSON data from social networking applications, and frame rate optimization of the scroll menu.</li>
               <li>Worked extensively with the graphics performance of the image framework used by the Asha Gallery, making it exceed the required targets needed for productization.</li>
             </ul>
           </li>
@@ -163,8 +163,8 @@
             <h3 class="title">Volunteer Open Source Developer</h4>
             <h4 class="org"><a href="http://ardour.org">Ardour</a></h3>
             <ul class="description">
-	      <li>Contributed substantial graphics related code to Ardour, a professional Digital Audio Workstation (DAW) with a GPL licence</li>
-	      <li>Contributions include piano roll and “scroomer” widgets, note backdrops/separators and waveform outlines</li>
+            <li>Contributed substantial graphics related code to Ardour, a professional Digital Audio Workstation (DAW) with a GPL licence</li>
+            <li>Contributions include piano roll and “scroomer” widgets, note backdrops/separators and waveform outlines</li>
             </ul>
           </li>
           <li class="experience vevent vcard resumeitem">
@@ -184,8 +184,8 @@
             <h3 class="title">Retail Worker</h4>
             <h4 class="org">ICA Sandaker</h3>
             <ul class="description">
-	      <li>Worked with cash register, stock and maintenance</li>
-	      <li>Part-time 30% position while attending university, working two nights a week</li>
+            <li>Worked with cash register, stock and maintenance</li>
+            <li>Part-time 30% position while attending university, working two evenings per week</li>
             </ul>
           </li>
           <li class="experience vevent vcard resumeitem">
@@ -211,7 +211,7 @@
             </div>
             <h3 class="org">Oslo University (UiO)</h3>
             <h4 class="summary">Bachelor of Computer Science</h4>
-            <div class="description">Computer science education with focus on logic, languages and computational linguistics</div>
+            <div class="description">Computer science education with focus on logic, (natural) languages and computational linguistics</div>
           </li>
         </ol>
         <ol class="vcalendar sectioncontent">
