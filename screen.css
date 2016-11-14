@@ -90,6 +90,10 @@ div.title {
 div.contact-fields {
     position: relative;
 }
+div.disclaimer {
+    color: #bfbfbf;
+    font-size: 8pt;
+}
 .sectionheader {
     float: left;
     width: 20%;

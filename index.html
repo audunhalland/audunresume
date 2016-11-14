@@ -58,6 +58,9 @@
       <div id="skills" class="section">
         <div class="sectionheader">
           <h2 class="section">Skills</h2>
+          <div class="disclaimer">
+            (Including but not limited to...)
+          </div>
         </div>
         <div class="sectioncontent">
           <ul class="tech">
@@ -70,10 +73,12 @@
             <li>Go</li>
             <li>Android</li>
             <li>Networking</li>
-            <li>UI localization</li>
+            <li>UI localization/Unicode</li>
             <li>Digital typography</li>
-            <li>Build systems</li>
+            <li>Build systems/CI</li>
+            <li>Test driven dev.</li>
             <li>HTML/CSS</li>
+            <li>Git</li>
           </ul>
         </div>
       </div>
@@ -94,7 +99,7 @@
               <li>Android development in Java. User interface, network communication, SQLite database and lots of phone state monitoring</li>
               <li>Development of complex networking code (C++/linux APIs + JNI interface) for the VPN component</li>
               <li>Focus on SDK backwards compatibility. Wrote gradle build scripts to replace deprecated Eclipse/ant</li>
-              <li>Largest task yet is moving the whole client/server architecture from a simple HTTP protocol to a multiplexing and fully encrypted HTTP2/SPDY based protocol</li>
+              <li>Largest task yet is moving the whole client/server architecture from a simple HTTP protocol to a multiplexing and fully encrypted HTTP2/SPDY based protocol. Designed and wrote a multithreaded Java utility library to facilitate the new protocol in all parts of the application, using a raw Java Socket internally</li>
             </ul>
           </li>
           <li class="experience vevent vcard resumeitem">
@@ -147,12 +152,14 @@
               <abbr class="dtstart" title="20071001">Oct 2007</abbr> - <abbr class="dtend" title="20111201">Dec 2011</abbr>
             </div>
             <h3 class="title">Software Developer</h4>
-            <h4 class="org">Smarterphone</h3>
+            <h4 class="org">Smarterphone</h4>
             <ul class="description">
+              <li>Smarterphone Framework developer</li>
               <li>Designed and implemented several key UI framework components, each being instrumental to Smarterphone later being acquired by Nokia, including but not limited to:</li>
+              <li>Text view widget and input system: Efficient bi-directional text layout algorithms with support for most of the scripts in use in the world today (using the freetype and harfbuzz libraries) + input methods with predictive typing and complex eastern script support. The maturity of these were better than Android's at the time. Developed an extensive automated test environment for text editing/rendering</li>
               <li>List view widget: Used for generically displaying menus in the UI. Optimised for fastest possible scroll frame rate, while still being fully dynamic and scriptable, in a constrained embedded environment</li>
-              <li>Text view widget and input system: Efficient bi-directional text layout algorithms with support for most of the scripts in use in the world today (using the freetype and harfbuzz libraries) + input methods with predictive typing and complex eastern script support. The maturity of these were better than Android's at the time</li>
-              <li>Part of completing the Majestic project, a feature phone approved for the South American market by Telefonica, built on the smarterphone framework</li>
+              <li>Part of completing the Majestic project, a feature phone approved for the South American market by Telefonica, powered by the Smarterphone Framework</li>
+              <li>Initiated process of version management migration from CVS to Git</li>
             </ul>
           </li>
           <li class="experience vevent vcard resumeitem">
